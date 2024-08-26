@@ -1,0 +1,11 @@
+{
+  "AllowedFileExt": [
+    "image/tiff",
+    "image/tif",
+    "image/jpg",
+    "image/jpeg",
+    "image/png"
+  ],
+  "MaxFileSize": 1024,
+  "AppLogPath": "D:\\Dotnet projects\\RTTSSyncApp\\Configs\\AppLog.txt"
+}

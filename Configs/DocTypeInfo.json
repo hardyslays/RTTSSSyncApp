@@ -1,0 +1,22 @@
+[
+  {
+    "DocId": "id1",
+    "DocName": "Invoice",
+    "BPName": "Customer"
+  },
+  {
+    "DocId": "id2",
+    "DocName": "Purchase Order",
+    "BPName": "Vendor"
+  },
+  {
+    "DocId": "id3",
+    "DocName": "Delivery Note",
+    "BPName": "Customer"
+  },
+  {
+    "DocId": "id4",
+    "DocName": "Goods Receipt",
+    "BPName": "Vendor"
+  }
+]

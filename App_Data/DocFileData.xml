@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<doctypes>
+	<doctype index="1" value="Doc1" processName="Process1"/>
+	<doctype index="2" value="Doc2" processName="Process2"/>
+</doctypes>

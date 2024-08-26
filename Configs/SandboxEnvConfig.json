@@ -1,0 +1,8 @@
+{
+  "OauthUrl": "https://sandbox.oauth.com",
+  "ApiUrl": "https://sandbox.api.com",
+  "ClientId": "sandbox-client-id",
+  "ClientSecret": "sandbox-client-secret",
+  "ReturnAllfields": "true",
+  "ReturnOCR": "false"
+}

@@ -1,0 +1,102 @@
+﻿
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    margin-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/*Navbar*/
+.navbar-wf {
+    background-color: #d71e28;
+}
+
+.navbar-wf a{
+    color: #fff;
+}
+.navbar-wf a:hover {
+    color: #fff;
+} 
+
+.hover-bottom-border-white{
+    box-sizing: content-box;
+}
+
+.hover-bottom-border-white:hover {
+    margin-top: -1px;
+    border-bottom: solid 1px #fff;
+}
+
+/* ---------------------------------------------------------- */
+
+.test{
+    border: solid 1px cyan;
+}
+.test1 {
+    border: solid 1px red;
+}
+/* ---------------------------------------------------------- */
+
+.title-container{
+    margin-bottom: 4rem;
+}
+
+.wf-main-title {
+    margin: 10px auto 25px auto;
+    color: #010101;
+    font-size: 2.5rem;
+}
+
+.nav-divider {
+    content: " ";
+    height: 4px;
+    background-color: #ffcd41;
+    margin-bottom: 15px;
+}
+
+.divider {
+    content: " ";
+    height: 1px;
+    background-color: #e4e7ed;
+    margin: 10px auto 10px auto;
+}
+
+.doc-form-label{
+    align-self: center;
+    text-align: end;
+    margin-right: 10px;
+}
+
+.doc-form-input {
+    align-self: center;
+    width: 100%;
+    margin-left: 50px;
+}
+
+.validation-error {
+    align-self: center !important;
+    color: red;
+    font: 0.7rem;
+}
+
+.RTTSresult-section {
+    margin-top: 4rem;
+}
+
+.subTitle {
+    font-size: 1.7rem;
+}

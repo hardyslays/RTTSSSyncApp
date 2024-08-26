@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Dotnet projects\\RTTSSyncApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{205FD00C-4C4D-4113-9F17-B35436CDA65E}|RTTSSyncApp.csproj|d:\\dotnet projects\\rttssyncapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{205FD00C-4C4D-4113-9F17-B35436CDA65E}|RTTSSyncApp.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{205FD00C-4C4D-4113-9F17-B35436CDA65E}|RTTSSyncApp.csproj|d:\\dotnet projects\\rttssyncapp\\content\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{205FD00C-4C4D-4113-9F17-B35436CDA65E}|RTTSSyncApp.csproj|solutionrelative:content\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{205FD00C-4C4D-4113-9F17-B35436CDA65E}|RTTSSyncApp.csproj|d:\\dotnet projects\\rttssyncapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{205FD00C-4C4D-4113-9F17-B35436CDA65E}|RTTSSyncApp.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{205FD00C-4C4D-4113-9F17-B35436CDA65E}|RTTSSyncApp.csproj|d:\\dotnet projects\\rttssyncapp\\views\\home\\_rttsfielddata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{205FD00C-4C4D-4113-9F17-B35436CDA65E}|RTTSSyncApp.csproj|solutionrelative:views\\home\\_rttsfielddata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{205FD00C-4C4D-4113-9F17-B35436CDA65E}|RTTSSyncApp.csproj|d:\\dotnet projects\\rttssyncapp\\content\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{205FD00C-4C4D-4113-9F17-B35436CDA65E}|RTTSSyncApp.csproj|solutionrelative:content\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{205FD00C-4C4D-4113-9F17-B35436CDA65E}|RTTSSyncApp.csproj|d:\\dotnet projects\\rttssyncapp\\views\\home\\logs.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{205FD00C-4C4D-4113-9F17-B35436CDA65E}|RTTSSyncApp.csproj|solutionrelative:views\\home\\logs.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{205FD00C-4C4D-4113-9F17-B35436CDA65E}|RTTSSyncApp.csproj|D:\\Dotnet projects\\RTTSSyncApp\\models\\rttsfieldvalues.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{205FD00C-4C4D-4113-9F17-B35436CDA65E}|RTTSSyncApp.csproj|solutionrelative:models\\rttsfieldvalues.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 227,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "bootstrap.css",
+              "DocumentMoniker": "D:\\Dotnet projects\\RTTSSyncApp\\Content\\bootstrap.css",
+              "RelativeDocumentMoniker": "Content\\bootstrap.css",
+              "ToolTip": "D:\\Dotnet projects\\RTTSSyncApp\\Content\\bootstrap.css",
+              "RelativeToolTip": "Content\\bootstrap.css",
+              "ViewState": "AgIAACUOAAAAAAAAAAASwEAOAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-26T17:32:27.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Logs.cshtml",
+              "DocumentMoniker": "D:\\Dotnet projects\\RTTSSyncApp\\Views\\Home\\Logs.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Logs.cshtml",
+              "ToolTip": "D:\\Dotnet projects\\RTTSSyncApp\\Views\\Home\\Logs.cshtml",
+              "RelativeToolTip": "Views\\Home\\Logs.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-26T17:26:23.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RTTSFieldValues.cs",
+              "DocumentMoniker": "D:\\Dotnet projects\\RTTSSyncApp\\Models\\RTTSFieldValues.cs",
+              "RelativeDocumentMoniker": "Models\\RTTSFieldValues.cs",
+              "ToolTip": "D:\\Dotnet projects\\RTTSSyncApp\\Models\\RTTSFieldValues.cs",
+              "RelativeToolTip": "Models\\RTTSFieldValues.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T13:32:43.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Site.css",
+              "DocumentMoniker": "D:\\Dotnet projects\\RTTSSyncApp\\Content\\Site.css",
+              "RelativeDocumentMoniker": "Content\\Site.css",
+              "ToolTip": "D:\\Dotnet projects\\RTTSSyncApp\\Content\\Site.css",
+              "RelativeToolTip": "Content\\Site.css",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAAAF0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-26T15:07:12.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Dotnet projects\\RTTSSyncApp\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Dotnet projects\\RTTSSyncApp\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAQwF8AAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T15:05:14.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_RTTSFieldData.cshtml",
+              "DocumentMoniker": "D:\\Dotnet projects\\RTTSSyncApp\\Views\\Home\\_RTTSFieldData.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\_RTTSFieldData.cshtml",
+              "ToolTip": "D:\\Dotnet projects\\RTTSSyncApp\\Views\\Home\\_RTTSFieldData.cshtml",
+              "RelativeToolTip": "Views\\Home\\_RTTSFieldData.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-26T15:04:47.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Dotnet projects\\RTTSSyncApp\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Dotnet projects\\RTTSSyncApp\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAiwEIAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-26T10:16:45.103Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+﻿@model RTTSSyncApp.ViewModels.HomeViewModel
+
+<table class="table table-responsive" id="FieldDataTable">
+    <thead>
+        <tr>
+            <th scope="col">S.No.</th>
+            <th scope="col">Field Name</th>
+            <th scope="col">Field Value</th>
+            <th scope="col">Confidence</th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            var i = 1;
+            foreach (var field in Model.fieldValues)
+            {
+                <tr>
+                    <td scope="col">@i</td>
+                    <td scope="col">@field.FieldName</td>
+                    <td scope="col">@field.FieldValue</td>
+                    <td scope="col">@field.Confidence</td>
+                </tr>
+                i += 1;
+            }
+        }
+    </tbody>
+</table>
+
+@section scripts
+{
+    <script>
+        $(document).ready(function () {
+            let fieldTable = $('fieldTable');
+            
+        }
+    </script>
+}

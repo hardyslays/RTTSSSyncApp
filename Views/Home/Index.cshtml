@@ -1,0 +1,94 @@
+﻿@model RTTSSyncApp.ViewModels.HomeViewModel
+
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<main>
+
+    @* Heading *@
+    <div class="container title-container">
+        <div class="row">
+            <div class="col text-center wf-main-title">Process a new Document</div>
+        </div>
+    </div>
+
+    @* Main form content *@
+
+@using (Html.BeginForm("Process", "Home", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+
+<div class="container">
+    
+    <div class="row justify-content-center p-1" style="@( (Model.validationResult == null || Model.validationResult.valid == true)? "display: none": "display: hidden")">
+        @if (Model.validationResult != null && Model.validationResult.errMsg != null) { <div class="validation-error"> @Model.validationResult.errMsg </div>  } 
+    </div>
+     
+    <div class="row justify-content-center p-2">
+        <div class="col doc-form-label">Please select the type of document you want to process</div>
+        <div class="col doc-form-input">
+            <select class="form-control form-select form-select-sm" id="selectedDocType" aria-label="Default select example" name="selectedDocType">
+                <option selected hidden>Select a document type</option>
+                @foreach (var item in Model.docTypeInfos)
+                {
+                    <option value="@item.DocId">@item.DocName</option>
+                }
+            </select>
+            @*<asp.dropdow
+            @Html.DropDownList("SelectedDocType", Model.docTypeInfos, new {@class = "form-select form-select-sm" })
+        *@
+        </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="row justify-content-center p-2">
+        <div class="col doc-form-label">Please specify the path of document</div>
+        <div class="col doc-form-input">
+            <input class="form-control form-control-sm" type="file" name="file">
+            @*@Html.TextBox("file", "", new { type = "file", name="selectedFile", @class= "form-control form-control-sm" } ) <br />*@
+        </div>
+    </div>
+
+    <div class="divider" onclick="ProcessDoc()"></div>
+
+    <div class="row justify-content-center p-2 my-5">
+        <button type="submit" class="btn btn-outline-primary w-50">Process</button>
+    </div>
+
+</div>
+}
+
+@if (Model.fieldValues != null)
+{
+    <div class="RTTSresult-section">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="FieldData-tab" data-bs-toggle="tab" data-bs-target="#FieldData" type="button" role="tab" aria-controls="FieldData" aria-selected="true">Field Data</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="RTTSRequestJSON-tab" data-bs-toggle="tab" data-bs-target="#RTTSRequestJSON" type="button" role="tab" aria-controls="RTTSRequestJSON" aria-selected="false">RTTS Request JSON</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="RTTSResponseJSON-tab" data-bs-toggle="tab" data-bs-target="#RTTSResponseJSON" type="button" role="tab" aria-controls="RTTSResponseJSON" aria-selected="false">RTTS Response JSON</button>
+            </li>
+        </ul>
+
+        @* Tab content *@
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="FieldData" role="tabpanel" aria-labelledby="FieldData-tab">
+                @Html.Partial("_RTTSFieldData", Model)
+            </div>
+            <div class="tab-pane fade" id="RTTSRequestJSON" role="tabpanel" aria-labelledby="RTTSRequestJSON-tab">
+                Request JSON
+            </div>
+            <div class="tab-pane fade" id="RTTSResponseJSON" role="tabpanel" aria-labelledby="RTTSResponseJSON-tab">
+                Response JSON
+            </div>
+        </div>
+
+    </div>
+
+}
+
+</main>
